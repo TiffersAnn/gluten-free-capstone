@@ -1,0 +1,19 @@
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: lightgray;
+  
+  }
+  .mainTitle {
+    text-align: center;
+    background-color: #a0cecb;
+    
+  }
+
+  .cardHeader{
+    font-size: large;
+    font-weight: 700;
+    padding-left: 15px;
+  }

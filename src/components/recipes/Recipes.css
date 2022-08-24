@@ -1,0 +1,43 @@
+footer {
+    font-weight: 600;
+    border-top: dotted 1px ;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;  
+}
+
+.recipe__delete {
+    margin-left: auto;
+    background-color: lightcoral;
+}
+
+.recipes{
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe{
+    background-color: #a0cecb;
+    border: 2px solid darkblue;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    color: black
+}
+
+.recipeForm {
+    border: 2px solid darkblue;
+    background-color: #a0cecb;
+    padding: 20px;
+    padding-right: 30px;
+}
+.recipeCard {
+    background-color: #a0cecb;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+.recipe_header {
+    text-align: center;
+}
+
