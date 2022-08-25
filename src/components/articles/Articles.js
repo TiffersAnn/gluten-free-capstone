@@ -6,7 +6,7 @@ export const Articles = ({articleObject}) => {
         
         {
            <div className="articles">     
-             <a href={articleObject.content} target="_blank" > {articleObject.title}</a>
+             <a href={articleObject.content} target="_blank" > {articleObject.articleName}</a>
             </div>
         }
     

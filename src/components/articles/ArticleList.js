@@ -2,6 +2,7 @@ import { Articles } from "./Articles";
 import "./Articles.css"
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import gfBreads from "../../images/gfBreads.jpg"
 
 
 export const ArticleList = () => {
@@ -42,6 +43,18 @@ export const ArticleList = () => {
                     currentUser={glutenfreeUserObject}
                     articleObject={article} />
             )
+        }
+        {
+            <div className="photoSection">
+            <img className="photo" src={gfBreads} alt="GF" heights="200" width="400" />
+            </div>
+        }
+        {
+            <footer>
+            <p>Author: Tiffany Baker</p>
+            <p><a href="https://github.com/TiffersAnn">GitHub Link</a></p>
+            <p><a href="mailto:tagesner@gmail.com">TAGesner@gmail.com</a></p><p>&copy;</p>
+          </footer>
         }
     
     </>

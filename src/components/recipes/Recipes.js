@@ -30,13 +30,13 @@ export const Recipes = ({recipeObject, getRecipes, currentUser}) => {
             
         </header>
         <section>{recipeObject.categoryId}</section>
-        <footer>
+        <div className="cardFooter">
             {
                 editButton()
             }
             {
                 deleteButton()
             }
-        </footer> 
+        </div> 
     </section>
 }

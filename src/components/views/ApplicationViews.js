@@ -5,6 +5,8 @@ import { RecipeDetails } from "../recipes/RecipeDetails";
 import Card from 'react-bootstrap/Card';
 import { RecipeContainer } from "../recipes/RecipeContainer";
 import { ArticleList } from "../articles/ArticleList";
+import { CommentList } from "../comments/CommentList";
+import { CommentContainer } from "../comments/CommentContainer";
 
 
 export const ApplicationViews = () => {
@@ -20,9 +22,9 @@ export const ApplicationViews = () => {
             {' '}
             “The gluten free diet taught me to cook. Now cooking is my hobby and a part of my routine to stay fit and healthy.”{' '}
           </p>
-            <footer className="blockquote-footer">
+            <div className="blockquote-footer">
             --Mary Lou Smith
-            </footer>
+            </div>
                     </blockquote>
                 </Card.Body>
                 <Card.Body>
@@ -32,13 +34,17 @@ export const ApplicationViews = () => {
                             
                             “When someone doesn’t understand your disease, tell them to be thankful they don’t need to know.”{' '}
                         </p>
-                        <footer className ="blockquote-footer">
+                        <div className ="blockquote-footer">
                             --Lucille Nelson
-                        </footer>
+                        </div>
                     </blockQuote>
                 </Card.Body>
             </Card>
-  
+            <footer>
+        <p>Author: Tiffany Baker</p>
+        <p><a href="https://github.com/TiffersAnn">GitHub Link</a></p>
+        <p><a href="mailto:tagesner@gmail.com">TAGesner@gmail.com</a></p><p>&copy;</p>
+      </footer>
 
 
 
@@ -50,6 +56,8 @@ export const ApplicationViews = () => {
         <Route path="articles/" element={<ArticleList />} />
         <Route path="recipes/:recipeId/edit" element={<RecipeEdit />} />
         <Route path ="recipes/:recipeId" element={<RecipeDetails />} />
+        <Route path="comments/" element={<CommentList />} />
+        <Route path="comments/" element={<CommentContainer />} />
         
     </Routes> 
 }

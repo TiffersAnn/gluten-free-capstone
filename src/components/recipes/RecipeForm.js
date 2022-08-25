@@ -38,7 +38,10 @@ export const RecipeForm = ({getRecipes}) => {
                     userId: 0
                 })
             })
-                       
+    
+         
+            
+
     }
     return(
         <form className="recipeForm">
@@ -97,6 +100,9 @@ export const RecipeForm = ({getRecipes}) => {
                     } />
                 </div>
             </fieldset>
+                   
+
+
             <button
                 onClick={(clickEvent)=> saveButtonClick(clickEvent)}
                 className="btn btn-primary">

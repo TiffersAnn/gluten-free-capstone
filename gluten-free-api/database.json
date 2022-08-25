@@ -62,6 +62,45 @@
       "id": 1,
       "userId": 2,
       "content": "First message. Hope this works."
+    },
+    {
+      "userId": 1,
+      "content": "2nd message. 😍",
+      "messageDate": "",
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "content": "New bakers should try adding extra vanilla and/or spices to recipes. Gluten-free flours often have unique tastes, and adding additional flavoring to recipes will help cover up these unfamiliar flavors.",
+      "messageDate": "",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "content": "To avoid baked goods becoming soggy, transfer to a wire rack as soon as possible after baking to ensure that they cool properly.",
+      "messageDate": "",
+      "id": 4
+    },
+    {
+      "userId": 4,
+      "content": "Substituting 1/4 cup ground flaxseed in 1/4 cup water for 1/4 cup flour will increase nutrition in any recipe.",
+      "messageDate": "",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "content": "Coconut, soy, rice and nut milks can be substituted for regular milk. ❤🥛",
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "content": "Gluten-free baking at high altitude requires less liquid and either a higher oven temperature or a longer baking time. 🏔",
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "content": "Maple syrup, brown rice syrup and agave can also be used instead of honey. 🍯",
+      "id": 8
     }
   ],
   "categories": [
@@ -96,23 +135,23 @@
   "articles": [
     {
       "id": 1,
-      "title": "The 10 Different Names of Wheat",
-      "content": "https://docs.google.com/document/d/1W8LeKjxQjPuwcakmJb43-Px4Oqloob67/edit?usp=sharing&ouid=102191510647996155577&rtpof=true&sd=true"
-    },
-    {
-      "id": 2,
-      "title": "Foods Naturally Gluten-Free",
+      "articleName": "Foods Naturally Gluten-Free",
       "content": "https://docs.google.com/document/d/1U4p9nm4OPgSxlZ-Z3QdOflzL4nTpLzq-/edit?usp=sharing&ouid=102191510647996155577&rtpof=true&sd=true"
     },
     {
+      "id": 2,
+      "articleName": "15 Ingredients to Question Before Consuming",
+      "content": "https://docs.google.com/document/d/1VKwyZ-oVcWdBWhUygvbsRAFAiAlLatjq/edit?usp=sharing&ouid=102191510647996155577&rtpof=true&sd=true"
+    },
+    {
       "id": 3,
-      "title": "Wheat Alternatives",
+      "articleName": "Wheat Alternatives",
       "content": "https://docs.google.com/document/d/19zmQvJ1WChRv8B5nzHNMrej_ntaIH8V8/edit?usp=sharing&ouid=102191510647996155577&rtpof=true&sd=true"
     },
     {
       "id": 4,
-      "title": "15 Ingredients That Need to be Checked Before Counted as Gluten-Free",
-      "content": "https://docs.google.com/document/d/1VKwyZ-oVcWdBWhUygvbsRAFAiAlLatjq/edit?usp=sharing&ouid=102191510647996155577&rtpof=true&sd=true"
+      "articleName": "10 Different Names of Wheat",
+      "content": "https://docs.google.com/document/d/1W8LeKjxQjPuwcakmJb43-Px4Oqloob67/edit?usp=sharing&ouid=102191510647996155577&rtpof=true&sd=true"
     }
   ]
 }
