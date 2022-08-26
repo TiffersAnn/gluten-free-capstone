@@ -2,6 +2,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import "./Comments.css"
 import React from "react"
+import normal from "../../images/normal.jpg"
 
 
 export const Comments = ({reFresh}) => {
@@ -68,12 +69,13 @@ export const Comments = ({reFresh}) => {
                                               
                         
                         } />
+                        </section>
             <button
             onClick={(clickEvent) => handleSaveButtonClick(clickEvent)}
-            className="btn btn-primary">
+            className="sendButton">
                 Send
             </button>
-                </section>
+                
             </fieldset>
         </form>
         

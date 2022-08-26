@@ -1,12 +1,8 @@
 /* Input */
-/* .chatForm fieldset input[type=text]{
-    transform:translatex(334px) translatey(-33px);
-    box-shadow:0px 0px 2px 0px #495057;
-    height: 50px;
-   } */
+
    
    /* Button */ */
-   .btn-primary{
+.btn-primary{
     transform:translatex(435px) translatey(-33px);
     position:relative;
     bottom:-4px;
@@ -18,12 +14,14 @@
     overflow-y: scroll;
     scrollbar-color: #a0cecb green;
     scrollbar-width: thin;
+    padding-left: 25px;
+    background-color: whitesmoke;
   } 
   /* Input */
 .chatForm fieldset input[type=text]{
     transform:translatex(0px) translatey(0px);
-    
-   }
+     
+}
    /* Span Tag */
 .messages div span{
   font-size:10px;
@@ -40,8 +38,9 @@
     border: solid darkblue;
     background-color: #a0cecb;
     text-align: center;
-    
- }
+    width: 500px;
+    margin-left: 5px;
+ } 
 
  .message {
     padding-bottom: 15px;
@@ -50,14 +49,30 @@
  .mainComments{
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: row; */
+    flex-direction: row; 
  }
 
+ .sendButton{
+    background-color: #a0cecb;
+    margin: 10px;
+    border: solid darkblue
+ }
+
+ .container{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .pic{
+    margin: 20px;
+ }
+ .tiles{
+    margin: 20px
+ }
  .gfArt{
-    float: right;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
  }
-
- 
 
  
    

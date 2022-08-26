@@ -1,10 +1,12 @@
 import { useState } from "react";
+import { RecipeType } from "../types/RecipeType";
 
 export const RecipeForm = ({getRecipes}) => {
     const [recipe, update] = useState({
         name: "",
         ingredients: "",
         directions: "",
+        typeId: 0,
         userId: 0
     })
     
@@ -17,7 +19,8 @@ export const RecipeForm = ({getRecipes}) => {
             userId: glutenfreeUserObject.id,
             name: recipe.name,
             ingredients: recipe.ingredients,
-            directions: recipe.directions
+            directions: recipe.directions,
+            typeId: recipe.typeName
         }
         return fetch(`http://localhost:8088/recipes`, {
             method: "POST",
@@ -35,6 +38,7 @@ export const RecipeForm = ({getRecipes}) => {
                     name: "",
                     ingredients: "",
                     directions: "",
+                    typeId: 0,
                     userId: 0
                 })
             })
@@ -100,8 +104,9 @@ export const RecipeForm = ({getRecipes}) => {
                     } />
                 </div>
             </fieldset>
-                   
-
+            <fieldset>
+                <RecipeType />       
+            </fieldset>
 
             <button
                 onClick={(clickEvent)=> saveButtonClick(clickEvent)}

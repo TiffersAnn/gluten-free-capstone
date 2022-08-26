@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { RecipeCategory } from "./RecipeCategory"
+import { RecipeCategory } from "../types/RecipeType"
 
 export const RecipeDetails = () => {
     const {recipeId} = useParams()
@@ -24,7 +24,8 @@ export const RecipeDetails = () => {
         <div> {recipe.ingredients}</div><br></br>
         <h3>Directions:</h3>
         <div>{recipe.directions}</div>
-        {/* <RecipeCategory /> */}
+        <h3>Type of Recipe:</h3>
+        <div>{recipe.typeId}</div>
     </section>
     
 }

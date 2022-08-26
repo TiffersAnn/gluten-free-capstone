@@ -1,13 +1,15 @@
 .container--login {
     text-align: center;
     background-color: lightgray;
+   
 }
 
 .form-control {
     display: block;
-    width: 94%;
+    width: 75%;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
+    margin-left: 30px;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -23,6 +25,16 @@
 .h1, h1 {
     font-size: 2.5rem;
     text-align: center;
+}
+.h2, h2{
+    margin-left: 30px;
+}
+.sub{
+    margin-left: 30px;
+}
+.email{
+    margin-left: 30px;
+    font-weight: 500;
 }
 
 fieldset {
@@ -40,6 +52,7 @@ fieldset {
 
 .form--login > fieldset > input[type="email"] {
     width: 25em;
+    margin-left: 30px;
 }
 
 .label--login {
@@ -58,6 +71,7 @@ fieldset {
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     margin-left: auto;
+    margin-top: 200px;
     
 }
 
@@ -65,5 +79,13 @@ fieldset {
     position: relative;
     bottom: -2rem;
 }
-
+.reg{
+    margin-left: 30px;
+}
+.eAdd{
+    margin-left: 30px;
+}
+.fullName{
+    margin-left: 30px;
+}
  

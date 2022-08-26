@@ -34,16 +34,16 @@ export const Login = () => {
                     <h1>Gluten Free Cooking</h1>
                     <h2>Please sign in</h2>
                     <fieldset>
-                        <label htmlFor="inputEmail"> Email address </label>
+                        <label className="email" htmlFor="inputEmail"> Email address: </label>
                         <input type="email"
                             value={email}
                             onChange={evt => set(evt.target.value)}
                             className="form-control"
-                            placeholder="Email address"
+                            placeholder="Enter your email address"
                             required autoFocus />
                     </fieldset>
                     <fieldset>
-                        <button type="submit">
+                        <button className="sub" type="submit">
                             Sign in
                         </button>
                     </fieldset>

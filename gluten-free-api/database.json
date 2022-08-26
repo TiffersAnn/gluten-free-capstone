@@ -27,10 +27,12 @@
       "name": "PBJ",
       "ingredients": "3T pb, 2T jelly, 2 slices bread",
       "directions": "Put pb on one slice and jelly on the other slice.  Put slices together.",
-      "userId": 1
+      "userId": 1,
+      "typeId": 3
     },
     {
       "userId": 1,
+      "typeId": 3,
       "name": "Healthy Lemon Bars",
       "ingredients": "Produce 1 tsp Lemon, zest Refrigerated 3 Eggs + 1 egg yolk Condiments 3/4 cup Lemon juice, fresh squeezed 3/4 cup Maple syrup Baking & Spices 1 1/2 cups Almond flour 5/16 cup Coconut flour 1/4 tsp Salt 1 tsp Vanilla Oils & Vinegars 1/3 cup Coconut oil",
       "directions": "blah blah blah and more blah",
@@ -38,10 +40,18 @@
     },
     {
       "userId": 1,
+      "typeId": 2,
       "name": "foo bars",
       "ingredients": "foo foo foo foo foo bar bar bar bar",
       "directions": "foo bar",
       "id": 4
+    },
+    {
+      "userId": 1,
+      "name": "lyufl",
+      "ingredients": ";iugliug",
+      "directions": "iufliyg",
+      "id": 5
     }
   ],
   "ratings": [
@@ -103,26 +113,22 @@
       "id": 8
     }
   ],
-  "categories": [
+  "types": [
     {
       "id": 1,
-      "categoryName": "Dinner"
+      "typeName": "Dinner"
     },
     {
       "id": 2,
-      "categoryName": "Snack"
+      "typeName": "Snack"
     },
     {
       "id": 3,
-      "categoryName": "Dessert"
+      "typeName": "Dessert"
     },
     {
       "id": 4,
-      "categoryName": "Vegan"
-    },
-    {
-      "id": 5,
-      "categoryName": "Lactose Free"
+      "typeName": "Lunch"
     }
   ],
   "recipeCategories": [

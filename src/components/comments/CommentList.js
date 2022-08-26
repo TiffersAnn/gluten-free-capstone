@@ -1,6 +1,8 @@
 import { useState,useEffect } from "react"
 import { Comments } from "./Comments"
 import "./Comments.css"
+import normal from "../../images/normal.jpg"
+import tilesGF from "../../images/tilesGF.jpg"
 
 export const CommentList = () => {
     const [comments, setComments] = useState([])
@@ -19,10 +21,10 @@ return<>
     <h4>Share experiences with gluten-free foods</h4>
 </div>
 <div className="container">
-<article className="messages">
-<div className="container pt-3">
-    <div className="scroller">
-    {
+    <article className="messages">
+    <div className="container pt-3">
+        <div className="scroller">
+        {
         comments.map(
             (message) => {
                 return <section className="message" key={`${message.id}`}>
@@ -35,12 +37,16 @@ return<>
                 </section>
             }
         )
-    }
+        }
+        </div>
     </div>
-    </div>
-    </article>
-    {/* <Comments reFresh={setComments} /> */}
     
+    <Comments reFresh={setComments} />
+    </article>
+    <div classname ="gfArt">
+        {/* <img className="pic" src={normal} alt="normal" /> */}
+        <img className="tiles" src={tilesGF} alt="tiles" width="376" height="256" />
+    </div>
     
 
 </div>
