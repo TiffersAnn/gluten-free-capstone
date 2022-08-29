@@ -20,7 +20,7 @@ export const RecipeForm = ({getRecipes}) => {
             name: recipe.name,
             ingredients: recipe.ingredients,
             directions: recipe.directions,
-            typeId: recipe.typeName
+            typeId: recipe.typeId
         }
         return fetch(`http://localhost:8088/recipes`, {
             method: "POST",
@@ -104,9 +104,9 @@ export const RecipeForm = ({getRecipes}) => {
                     } />
                 </div>
             </fieldset>
-            <fieldset>
-                <RecipeType />       
-            </fieldset>
+            
+                <RecipeType update={update} recipe={recipe} />       
+            
 
             <button
                 onClick={(clickEvent)=> saveButtonClick(clickEvent)}

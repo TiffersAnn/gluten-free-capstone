@@ -36,6 +36,7 @@
     padding-bottom: 50px;
     padding-top: 10px;
     padding-left: 25px;
+    margin-top: 50px;
 }
 .recipe_header {
     text-align: center;
@@ -47,4 +48,8 @@
     display: flex;
     justify-content: center; 
     align-items: center;
+}
+
+.recipeTitle {
+    margin-bottom: .5px;
 }

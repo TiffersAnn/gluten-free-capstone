@@ -1,9 +1,7 @@
 import { useState, useEffect } from "react"
-import { useParams } from "react-router-dom"
 
 
-
-export const RecipeType = () => {
+export const RecipeType = ({update, recipe}) => {
     const localGlutenfreeUser = localStorage.getItem("glutenfree_user")
     const glutenfreeUserObject = JSON.parse(localGlutenfreeUser) 
 
@@ -20,26 +18,33 @@ export const RecipeType = () => {
     },[])
 
     const typeItem = types.map(type =>
-        <option key={type.id}>{type.typeName}</option>
+        <option key={type.id} value={type.id}>{type.typeName}</option>
         )
      
 
     return (
     <>
-        <form class="categories">
-            <fieldset>
+        
+            <fieldset class="categories">
             <label for="categories">Type:</label><br></br>
                 {
-                <select> 
-                
+                <select 
+                onChange={
+                    (evt)=> {
+                        const copy = {...recipe}
+                        copy.typeId = evt.target.value
+                        update(copy)}}
+                        > 
+                    
                     {typeItem}    
                 
-                    
+                        
                 </select>
+                
                 }
                 
             </fieldset>
-        </form>
+       
    
    </> 
     )

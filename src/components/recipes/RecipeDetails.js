@@ -8,7 +8,7 @@ export const RecipeDetails = () => {
 
     useEffect(
         () => {
-            fetch(`http://localhost:8088/recipes/${recipeId}`)
+            fetch(`http://localhost:8088/recipes/${recipeId}?_expand=type`)
                 .then(response => response.json())
                 .then((data) => {
                     updateRecipe(data)
@@ -25,7 +25,7 @@ export const RecipeDetails = () => {
         <h3>Directions:</h3>
         <div>{recipe.directions}</div>
         <h3>Type of Recipe:</h3>
-        <div>{recipe.typeId}</div>
+        <div>{recipe.type?.typeName}</div>
     </section>
     
 }

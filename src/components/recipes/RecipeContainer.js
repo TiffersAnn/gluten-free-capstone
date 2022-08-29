@@ -3,6 +3,7 @@ import { RecipeForm } from "./RecipeForm"
 import { useState, useEffect } from "react"
 import allergyButton from "../../images/allergyButton.jpg"
 import "./Recipes.css"
+import { RecipeFilter } from "../types/RecipeFilter"
 
 
 export const RecipeContainer = () => {
@@ -34,7 +35,8 @@ export const RecipeContainer = () => {
         </section>
         <section className="mainContainer">
             <div className="news">
-                <h2>Recipes</h2>
+                <h2 className="recipeTitle">Recipes</h2>
+                    <RecipeFilter setterFunction={setRecipes}/>
                     <RecipeList recipes={recipes} getRecipes={getRecipes} />
             </div>
             <div>
