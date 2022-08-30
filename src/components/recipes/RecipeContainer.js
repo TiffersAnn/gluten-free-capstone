@@ -3,11 +3,13 @@ import { RecipeForm } from "./RecipeForm"
 import { useState, useEffect } from "react"
 import allergyButton from "../../images/allergyButton.jpg"
 import "./Recipes.css"
-import { RecipeFilter } from "../types/RecipeFilter"
+import { RecipeFilter } from "./RecipeFilter"
 
 
 export const RecipeContainer = () => {
     const [recipes, setRecipes] = useState([])
+    const [showRecipes, setShowRecipies] = useState([])
+    const [filtered, setFiltered] = useState(0)
 
     const getRecipes = () => {
         fetch(`http://localhost:8088/recipes`)
@@ -27,6 +29,19 @@ export const RecipeContainer = () => {
         }, []
     )
 
+    useEffect(
+        () => {
+            if(!filtered){
+                setShowRecipies(recipes)
+            }
+            else{
+
+                const filteredRecipes = recipes.filter(x=> x.typeId == filtered)
+                setShowRecipies(filteredRecipes)
+            }
+        }, [filtered, recipes]
+    )
+
     return (
         <>
         <section className="mainTitle">
@@ -36,8 +51,8 @@ export const RecipeContainer = () => {
         <section className="mainContainer">
             <div className="news">
                 <h2 className="recipeTitle">Recipes</h2>
-                    <RecipeFilter setterFunction={setRecipes}/>
-                    <RecipeList recipes={recipes} getRecipes={getRecipes} />
+                    <RecipeFilter setFiltered={setFiltered} />
+                    <RecipeList recipes={showRecipes} getRecipes={getRecipes} />
             </div>
             <div>
                 <h2>Add New Recipes</h2>

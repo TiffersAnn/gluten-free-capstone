@@ -1,7 +1,7 @@
 import { useState,useEffect } from "react"
 import { Comments } from "./Comments"
 import "./Comments.css"
-import normal from "../../images/normal.jpg"
+
 import tilesGF from "../../images/tilesGF.jpg"
 
 export const CommentList = () => {

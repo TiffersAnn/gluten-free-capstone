@@ -75,7 +75,7 @@ export const RecipeForm = ({getRecipes}) => {
                     required autoFocus
                     type="text"
                     className="form-control"
-                    placeholder="List of ingredients with quantities"
+                    placeholder="Ingredients with quantities"
                     value={recipe.ingredients}
                     onChange={
                         (evt)=> {
@@ -93,7 +93,7 @@ export const RecipeForm = ({getRecipes}) => {
                     required autoFocus
                     type="text"
                     className="form-control"
-                    placeholder="List directions in order by #s"
+                    placeholder="List directions in order"
                     value={recipe.directions}
                     onChange={
                         (evt)=> {

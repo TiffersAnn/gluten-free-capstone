@@ -53,3 +53,9 @@
 .recipeTitle {
     margin-bottom: .5px;
 }
+.cardPic {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}

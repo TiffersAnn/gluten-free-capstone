@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { useParams } from "react-router-dom"
-import { RecipeCategory } from "../types/RecipeType"
+import normal from "../../images/normal.jpg"
 
 export const RecipeDetails = () => {
     const {recipeId} = useParams()
@@ -18,7 +18,8 @@ export const RecipeDetails = () => {
         [recipeId]
     )
 
-    return <section className="recipeCard">
+    return <>
+        <section className="recipeCard">
         <h2 className="recipe_header">{recipe.name}</h2>
         <h3>Ingredients:</h3>
         <div> {recipe.ingredients}</div><br></br>
@@ -27,5 +28,8 @@ export const RecipeDetails = () => {
         <h3>Type of Recipe:</h3>
         <div>{recipe.type?.typeName}</div>
     </section>
-    
+    <div className="cardPic">
+    <img className="normal" src={normal} alt="tiles" width="376" height="256" /> 
+    </div>
+    </>
 }
