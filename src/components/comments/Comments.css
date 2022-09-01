@@ -39,7 +39,8 @@
     background-color: #a0cecb;
     text-align: center;
     width: 500px;
-    margin-left: 5px;
+    margin-left: 510px;
+    margin-bottom: 10px; 
  } 
 
  .message {
@@ -54,13 +55,14 @@
 
  .sendButton{
     background-color: #a0cecb;
-    margin: 10px;
+    margin: 20px;
     border: solid darkblue
  }
 
  .container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
  }
  .pic{
     margin: 20px;
@@ -74,5 +76,10 @@
     flex-wrap: wrap;
  }
 
- 
+ .commentInput{
+    margin-left: 20px;
+    
+ }
+
+
    

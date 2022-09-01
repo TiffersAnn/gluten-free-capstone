@@ -2,7 +2,6 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import "./Comments.css"
 import React from "react"
-import normal from "../../images/normal.jpg"
 
 
 export const Comments = ({reFresh}) => {
@@ -54,7 +53,7 @@ export const Comments = ({reFresh}) => {
         <form className="chatForm">
             <fieldset>
                 <section className="form-group">
-                    <input
+                    <textarea
                         required autoFocus
                         type="textarea"
                         className="commentInput"
@@ -68,7 +67,9 @@ export const Comments = ({reFresh}) => {
                             }
                                               
                         
-                        } />
+                        } 
+                        rows={5}
+                        cols={45} />
                         </section>
             <button
             onClick={(clickEvent) => handleSaveButtonClick(clickEvent)}

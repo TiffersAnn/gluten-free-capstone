@@ -44,7 +44,6 @@ return<>
     <Comments reFresh={setComments} />
     </article>
     <div classname ="gfArt">
-        {/* <img className="pic" src={normal} alt="normal" /> */}
         <img className="tiles" src={tilesGF} alt="tiles" width="376" height="256" />
     </div>
     

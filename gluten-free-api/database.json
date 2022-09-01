@@ -27,16 +27,8 @@
       "typeId": 3,
       "name": "Healthy Lemon Bars",
       "ingredients": "Produce 1 tsp Lemon, zest Refrigerated 3 Eggs + 1 egg yolk Condiments 3/4 cup Lemon juice, fresh squeezed 3/4 cup Maple syrup Baking & Spices 1 1/2 cups Almond flour 5/16 cup Coconut flour 1/4 tsp Salt 1 tsp Vanilla Oils & Vinegars 1/3 cup Coconut oil",
-      "directions": "blah blah blah and more blah",
+      "directions": "1.    Preheat oven 350F.  2.     Make the crust: In a medium bowl, whisk together the almond flour, coconut flour, tapioca flour, and sea salt. Add the maple syrup, ghee, and vanilla to the bowl, and fold everything together until a dough forms. Press the crust into the bottom of the prepared pan and bake for 12 minutes.  3.     Make the Filling: While the crust bakes, make the filling. Add the eggs, lemon juice, maple syrup, and lemon zest to a large bowl and whisk well by hand. Don’t use a mixer for this, as whisking by hand is the best way to fully incorporate the eggs. Whisk quickly until you don’t see any egg white remaining. Add the tapioca flour and whisk until there are no clumps. Once the crust has finished baking, remove it from the oven. Immediately add the filling. Do not allow the crust to cool.  4.     Bake the Bars: Lower the temperature to 325 degrees Fahrenheit and return the bars to the oven to bake for 20-22 minutes, or until the filling is set. A little jiggle in the center is just right!  5.    Chill: Allow the bars to cool completely, then transfer the pan to the refrigerator for 3-4 hours to let the bars set. Before serving, cut into twelve squares and sprinkle the bars with powdered sugar. Enjoy!",
       "id": 2
-    },
-    {
-      "userId": 1,
-      "typeId": 2,
-      "name": "foo bars",
-      "ingredients": "foo foo foo foo foo bar bar bar bar",
-      "directions": "foo bar",
-      "id": 4
     },
     {
       "userId": 2,
@@ -74,7 +66,7 @@
       "userId": 1,
       "name": "Garlic Chickpea Soup",
       "ingredients": "Produce: 2 cans (15 oz each) chickpeas 1 (6oz-180 grams) large potato, large 1/4 tsp Chili flakes 3 Garlic cloves, large 1 tsp Rosemary, dried 1/2 tsp Thyme, dried Canned Goods: 2 cups Vegetable broth, low-sodium Baking & Spices: 1 tsp Paprika 1 Salt & black pepper Oils & Vinegars: 1 tbsp Olive oil",
-      "directions": "1. Blend half of the chickpeas. 2. Sauté garlic in olive oil. 3. Add chickpeas, herbs, spices, and potato. 4. Stir in broth. 5. Cook for 25 minutes.",
+      "directions": "1. Blend half of the chickpeas. 2. Sauté garlic in olive oil. 3. Add chickpeas, herbs, spices, and potato. 4. Stir in broth. 5. Cook for 27 minutes.",
       "typeId": "1",
       "id": 10
     },
@@ -85,6 +77,22 @@
       "directions": "1. Line baking sheet with parchment paper. 2, Place flour in one bowl. 3. In second bowl, whisk eggs and milk until combined. 4. In third bowl, thoroughly combine bread crumbs, salt, pepper, parsley, garlic powder, basil, and oregano. 5. Take one mozzarella stick. Dip in flour and roll until lightly coated. Don't forget to coat ends of cheese stick in all steps. 6. Immediately dip flour-coated mozzarella stick into egg wash. Roll until coated. 7. From egg wash, immediately dip mozzarella stick into breadcrumb mixture. Roll until coated. Gently press the panko onto mozzarella stick. 8. Fry approximately 2 minutes, until breading is golden brown and crispy. Transfer cooked mozzarella sticks to paper towel to drain oil. Repeat process for remaining mozzarella sticks.",
       "typeId": "2",
       "id": 11
+    },
+    {
+      "userId": 1,
+      "name": "Peanut Butter Oatmeal Balls",
+      "ingredients": "Breakfast Foods: 1 cup GF Rolled oats Condiments: 1/4 cup Maple syrup or honey, 1/2 cup Peanut butter Baking & Spices: 1/4 cup Dark chocolate chips Nuts & Seeds: 2 tbsp Flax seeds and/or chia seeds, ground Other: 2- 3 tbsp nut milk or other liquid of choice (optional)",
+      "directions": "Since these are no-bake balls all you will need to do is mix the ingredients, roll them into balls and let them chill for a couple of hours in the fridge. It’s that simple!",
+      "typeId": "2",
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "name": "No-Bake Chocolate PB Crunch Bars",
+      "ingredients": "3c Crispy Rice Cereal, 1/4c Peanut Butter, 1/4c Chocolate Chips, 2T Maple Syrup, 2T Coconut oil",
+      "directions": "1.  Line an 8 x 8-inch baking dish or deep baking tray of choice with parchment paper and set aside.  2. Add crispy rice cereal into a large mixing bowl and set aside. In a microwave safe bowl or stovetop, combine all your other ingredients and heat until melted. Remove from microwave/off stove and whisk until completely incorporated. 3. Pour the chocolate/peanut butter mixture over the crispy rice cereal and mix until combined. Pour into the lined baking dish and refrigerate until firm (at least an hour). 4. Remove and cut into bars.",
+      "typeId": "3",
+      "id": 13
     }
   ],
   "ratings": [
@@ -95,23 +103,6 @@
   ],
   "recipeRatings": [],
   "comments": [
-    {
-      "id": 1,
-      "userId": 2,
-      "content": "First message. Hope this works."
-    },
-    {
-      "userId": 1,
-      "content": "2nd message. 😍",
-      "messageDate": "",
-      "id": 2
-    },
-    {
-      "userId": 1,
-      "content": "New bakers should try adding extra vanilla and/or spices to recipes. Gluten-free flours often have unique tastes, and adding additional flavoring to recipes will help cover up these unfamiliar flavors.",
-      "messageDate": "",
-      "id": 3
-    },
     {
       "userId": 1,
       "content": "To avoid baked goods becoming soggy, transfer to a wire rack as soon as possible after baking to ensure that they cool properly.",
@@ -138,6 +129,16 @@
       "userId": 3,
       "content": "Maple syrup, brown rice syrup and agave can also be used instead of honey. 🍯",
       "id": 8
+    },
+    {
+      "userId": 2,
+      "content": "I follow a dairy-free and gluten-free diet, which can be challenging in some places. 😵🥗",
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "content": "New bakers should try adding extra vanilla and/or spices to recipes. Gluten-free flours often have unique tastes, and adding additional flavoring to recipes will help cover up these unfamiliar flavors. 🧂 🍋",
+      "id": 10
     }
   ],
   "types": [

@@ -17,7 +17,7 @@ export const ApplicationViews = () => {
             <Card>
                 <Card.Header className="cardHeader">Gluten-Free Lifestyle</Card.Header>
                 <Card.Body>
-                    <blockquote className="blockquote mb-0">
+                    <blockquote className="blockquote">
           <p>
             {' '}
             “The gluten free diet taught me to cook. Now cooking is my hobby and a part of my routine to stay fit and healthy.”{' '}

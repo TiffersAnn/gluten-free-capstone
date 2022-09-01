@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react"
 
 
-
-
 export const RecipeFilter = ({setFiltered}) => {
    
     const localGlutenfreeUser = localStorage.getItem("glutenfree_user")
@@ -24,17 +22,7 @@ export const RecipeFilter = ({setFiltered}) => {
            
         },[])
 
-        // useEffect(
-        //     () => {
-        //         fetch(`http://localhost:8088/recipes/${recipeId}?_expand=type`)
-        //             .then(response => response.json())
-        //             .then((data) => {
-        //                 setFiltered(data)
     
-        //             })
-        //     },
-        //     [recipeId]
-        // )
 
     const typeItem = types.map(type =>
         <option key={type.id} value={type.id}>{type.typeName}</option>

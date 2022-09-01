@@ -1,5 +1,6 @@
 import { Link, useNavigate } from "react-router-dom"
 import "./NavBar.css"
+import allergyButton from "../../images/allergyButton.jpg" 
 
 
 export const NavBar = () => {
@@ -7,6 +8,12 @@ export const NavBar = () => {
 
     return (
         <>
+        <section className="navTop">
+        <div className="navTitle">
+            <img src={allergyButton} alt="GF" width="100" height="100" />        
+            <h1 className="title">Gluten Free Cooking</h1>
+
+        </div>
         <div className="navbar">
             
         
@@ -21,6 +28,7 @@ export const NavBar = () => {
                 }}>Logout</Link>
             
         </div>
+        </section>
     
     </>
     )

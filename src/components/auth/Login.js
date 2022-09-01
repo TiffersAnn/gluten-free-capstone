@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom"
 import "./Login.css"
+import grey2 from "../../images/grey2.jpg"
 
 export const Login = () => {
     const [email, set] = useState("")

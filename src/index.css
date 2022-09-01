@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: lightgray;
+  background-image: url(./images/grey2.jpg);
+  /* background-color: lightgray; */
 }
 
 code {

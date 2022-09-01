@@ -1,7 +1,6 @@
 import { RecipeList } from "./RecipeList"
 import { RecipeForm } from "./RecipeForm"
 import { useState, useEffect } from "react"
-import allergyButton from "../../images/allergyButton.jpg"
 import "./Recipes.css"
 import { RecipeFilter } from "./RecipeFilter"
 
@@ -44,16 +43,16 @@ export const RecipeContainer = () => {
 
     return (
         <>
-        <section className="mainTitle">
-        <img src={allergyButton} alt="GF" width="100" height="100" />        
-        <h1 className="title">Gluten Free Cooking</h1>
-        </section>
         <section className="mainContainer">
-            <div className="news">
+            <div>
+            
                 <h2 className="recipeTitle">Recipes</h2>
-                    <RecipeFilter setFiltered={setFiltered} />
+                <RecipeFilter setFiltered={setFiltered} />
+            
+            
                     <RecipeList recipes={showRecipes} getRecipes={getRecipes} />
-            </div>
+                    </div>
+            
             <div>
                 <h2>Add New Recipes</h2>
                     <RecipeForm getRecipes={getRecipes}/>
